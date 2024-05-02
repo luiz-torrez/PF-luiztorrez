@@ -10,63 +10,35 @@
 </head>
 <body>
     <header>
-        <nav class="navbar bg-primary navbar-expand-md" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">M.movil</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">M.movil</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body bg-primary">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="registro.html">Registrate</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sobre nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../productos/celulares.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contactos</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
+      <nav class="nav">
+        <a href="../index.html" class="nav-link nav-btn">M.movil</a>
+        <ul>
+          <li><a href="../index.html" class="nav-link">Inicio</a></li>
+          <li><a href="../inicio-registro/inicio.html" class="nav-link">Iniciar sesión</a></li>
+          <li><a href="registro.html" class="nav-link">Registrate</a></li>
+          <li><a href="../productos/celulares.html" class="nav-link">Productos</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="body-inicio">
+      <section class="body-inicio">
         <div class="formulario">
-        <h1>Inicio de sesion</h1>
-        <form method="post">
+          <h1>Inicio de sesion</h1>
+          <form method="post">
             <div class="username">
-                <input type="text" required>
-                <label for="">Nombre de usuario</label>
+              <input type="text" required>
+              <label for="">Nombre de usuario</label>
             </div>
             <div class="username">
-                <input type="password" required>
-                <label for="">Contraseña</label>
+              <input type="password" required>
+              <label for="">Contraseña</label>
             </div>
             <div class="recordar">¿Olvido su contraseña?</div>
-            <input type="submit" value="Iniciar">
+              <input type="submit" value="Iniciar">
             <div class="registrarse">quiero <a href="resgistro.html">registrarme</a></div>
-        </form>
+          </form>
         </div>
-    </section>
-        
+      </section>    
     </main>
     <footer class="footer">
       <div class="container">

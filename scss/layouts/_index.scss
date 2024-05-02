@@ -7,10 +7,12 @@
     .img-hero {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 350px;
     height: 100%;   
 }
 .img-hero img{
+    @include flex(column, center, flex-start, 20px);
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -25,17 +27,30 @@
     text-align: center;
     text-decoration: none;
     color: black;
-    padding: 10px;
-    font-size: 2rem;
+    font-size: 1rem;
 }
-
-}
-.h2-t{
-    font-size: 4rem;
-    text-align: center;
-    padding: 20px;   
 }
 .anuncio{
     width: 100%;
     height: 100%;
+}
+.img-product{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.conntainer-titulo{
+    
+    text-align: center;
+    padding: 20px; 
+    height: 100%;
+    width: 100%;  
+    
+}
+.titulo{
+    @include flex(row,flex-start,center,10px);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 15px;
 }

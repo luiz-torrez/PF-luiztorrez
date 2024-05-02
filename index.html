@@ -11,43 +11,19 @@
 </head>
 <body>
   <header>
-    <nav class="navbar bg-primary navbar-expand-md" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">M.movil</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">M.movil</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body bg-primary">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="inicio-registro/inicio.html">Iniciar sesión</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="inicio-registro/registro.html">Registrate</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sobre nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="productos/celulares.html">Productos</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <nav class="nav">
+      <a href="" class="nav-link nav-btn">M.movil</a>
+      <ul>
+        <li><a href="index.html" class="nav-link">Inicio</a></li>
+        <li><a href="inicio-registro/inicio.html" class="nav-link">Iniciar sesión</a></li>
+        <li><a href="inicio-registro/registro.html" class="nav-link">Registrate</a></li>
+        <li><a href="productos/celulares.html" class="nav-link">Productos</a></li>
+      </ul>
     </nav>
   </header>
   <main>
-    <section>
-      <h2 class="h2-t">Celulares</h2>
+    <section class="conatiner-titulo">
+      <h1 class="titulo">Celulares</h1>
     </section>
     <section class="img"> 
       <article class="img-hero">
@@ -77,13 +53,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/carrusel/carrusel.png" class="d-block w-100" alt="...">
+            <a href="productos/celulares/samsung.html"><img src="img/carrusel/carrusel.png" class="d-block w-100" alt="celulares samsung hasta 6 cuotas sin interes"></a>
           </div>
           <div class="carousel-item">
-            <img src="img/carrusel/carrusel2.webp" class="d-block w-100" alt="...">
+            <a href="productos/celulares/xiaomi.html"><img src="img/carrusel/carrusel2.webp" class="d-block w-100" alt="el xiaomi de tus sueños al mejor precio 32% de descuento"></a>
           </div>
           <div class="carousel-item">
-            <img src="img/carrusel/carrusel3.webp" class="d-block w-100" alt="...">
+            <a href="productos/celulares/motorola.html"><img src="img/carrusel/carrusel3.webp" class="d-block w-100" alt="descuentos imperdibles motorols especial ver Ofertas"></a>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -96,24 +72,24 @@
         </button>
       </div>
     </section>
-    <section>
-      <h2 class="h2-t">Ofertas exclusivas</h2>
+    <section class="conatiner-titulo">
+      <h2 class="titulo">Ofertas exclusivas</h2>
     </section>
-    <section class="img-g1"> 
-      <article class="img-hero-g1">
-          <a href="productos/celulares/iphone/iphone10.html"><img class="img-p" src="img/celulares/iphone10.png" alt="Iphone 10">
+    <section class="img"> 
+      <article class="img-hero">
+          <a href="productos/celulares/iphone.html"><img src="img/celulares/iphone10.png" alt="Iphone 10">
           <p>Iphone 10</p></a>
       </article>
-      <article class="img-hero-g1">
-          <a href="productos/celulares/samsung/samsungs20.html"><img class="img-p" src="img/celulares/samsungs20.png" alt="Samsung S 20">
+      <article class="img-hero">
+          <a href="productos/celulares/samsung.html"><img src="img/celulares/samsungs20.png" alt="Samsung S 20">
           <p>Samsung S 20</p></a>
       </article>
-      <article class="img-hero-g1">
-          <a href="productos/celulares/motorola/motorolag21.html"><img class="img-p" src="img/celulares/motorolag21.png" alt="Motorola g 21">
+      <article class="img-hero">
+          <a href="productos/celulares/motorola.html"><img src="img/celulares/motorolag21.png" alt="Motorola g 21">
           <p>Motorola g 21</p></a>
       </article>
-      <article class="img-hero-g1">
-          <a href="productos/celulares/xiaomi/xiaomiredminote10.html"><img class="img-p" src="img/celulares/xiaomiredminote10.jpg" alt="Xiaomi redmi note 10">
+      <article class="img-hero">
+          <a href="productos/celulares/xiaomi.html"><img src="img/celulares/xiaomiredminote10.jpg" alt="Xiaomi redmi note 10">
           <p>Xiaomi redmi note 10</p></a>
       </article>
     </section>
