@@ -128,6 +128,22 @@ ul {
     gap: 10px;
   }
 }
+.titulo-ayuda {
+  text-align: left;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+}
+
+.contenido-ayuda {
+  text-align: left;
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+}
+
 .img-conteiner {
   display: grid;
   gap: 1rem;
@@ -208,9 +224,10 @@ a img {
 
 .conntainer-titulo {
   text-align: center;
-  padding: 20px;
   height: 100%;
   width: 100%;
+  font-size: 1rem;
+  margin: 0;
 }
 
 .titulo {
@@ -219,9 +236,9 @@ a img {
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  font-size: 1.5rem;
   text-align: center;
-  padding: 15px;
+  margin: 0;
+  padding: 10px;
 }
 
 .body-inicio {
@@ -564,25 +581,6 @@ a img {
   width: 250px;
   height: 250px;
   object-fit: contain;
-}
-
-.titulo-ayuda {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 10px;
-  font-size: 1.5rem;
-  text-align: center;
-  padding: 15px;
-}
-
-.contenido-ayuda p {
-  text-align: center;
-  padding: 20px;
-  height: 100%;
-  width: 100%;
-  gap: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

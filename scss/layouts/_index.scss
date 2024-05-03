@@ -43,14 +43,17 @@
 .conntainer-titulo{
     
     text-align: center;
-    padding: 20px; 
+   
     height: 100%;
-    width: 100%;  
+    width: 100%; 
+    font-size: 1rem;
+    margin: 0;
+    
     
 }
 .titulo{
     @include flex(row,flex-start,center,10px);
-    font-size: 1.5rem;
     text-align: center;
-    padding: 15px;
+    margin: 0;
+    padding: 10px;
 }

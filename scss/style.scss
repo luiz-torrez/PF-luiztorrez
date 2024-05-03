@@ -3,26 +3,14 @@
 @import "base/vars";
 @import "components/footer";
 @import "components/navbar";
+@import "layouts/ayuda";
 @import "layouts/celulares";
 @import "layouts/index";
 @import "layouts/inicio";
 @import "layouts/iphone";
 @import "layouts/motorola";
+@import "layouts/nosotros";
 @import "layouts/registro";
 @import "layouts/samsung";
 @import "layouts/xiaomi";
 
-.titulo-ayuda{
-    @include flex(row,flex-start,center,10px);
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 15px;
-}
-.contenido-ayuda p{
-    text-align: center;
-    padding: 20px; 
-    height: 100%;
-    width: 100%;  
-    gap: 100px
-    ;
-}
