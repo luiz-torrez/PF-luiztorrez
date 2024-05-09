@@ -3,7 +3,6 @@
     gap: 1rem;
     grid-auto-rows: 20rem;
     grid-template-columns: repeat(auto-fit,minmax(min(100%,15rem),1fr));
-    background-color:white;
     padding: 10px;
 }
 
@@ -14,7 +13,7 @@
     max-height: 100%;
     margin: auto;
     padding: 15px;
-    border: 1.5px solid #b8b8b8;
+    // border: 1.5px solid #b8b8b8;
     min-height: 100px;
     min-width: 100px;
 }

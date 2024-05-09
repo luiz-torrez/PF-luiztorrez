@@ -2,6 +2,7 @@
 @import "base/utilities";
 @import "base/vars";
 @import "components/footer";
+@import "components/main";
 @import "components/navbar";
 @import "layouts/ayuda";
 @import "layouts/celulares";
@@ -14,3 +15,12 @@
 @import "layouts/samsung";
 @import "layouts/xiaomi";
 
+main{
+    background: rgba(255, 0, 0, 0.178)
+    url(../img/imgmain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    
+}
