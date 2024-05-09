@@ -2,37 +2,29 @@
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    // background: linear-gradient(150deg, #6c3483,#58d68d);
+    background: linear-gradient(150deg, #6d348356,#58d68c3d);
     height: 100vh;
-    .formulario{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400;
+    @include flex(column,center,center,10px);
+    .formulario-inicio{
+    @include flex(column,center,center,10px);
     padding: 20px;
     background: white;
     border-radius: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     h1{
     text-align: center;
-    padding: 0 0 20px 0;
     border-bottom: 1px solid silver;
 }
 }
 }
-
-
-.formulario form{
-    padding: 0 40px;
+.formulario-inicio form{
     box-sizing: border-box;
 }
-form .username{
+form .username-inicio{
     position: relative;
     border-bottom: 2px solid #adadad;
-    margin: 30px 0;
 }
-.username input{
+.username-inicio input{
     width: 100%;
     padding: 0 Spx;
     height: 40px;
@@ -41,7 +33,7 @@ form .username{
     background: none;
     outline: none;
 }
-.username label{
+.username-inicio label{
     position: absolute;
     top: 50%;
     left: 5px;
@@ -50,33 +42,33 @@ form .username{
     font-size: 16px;
     pointer-events: none;
 }
-.username span::before{
+.username-inicio span::before{
     content: '';
     position: absolute;
     top: 40px;
     left: 0;
     width: 100%;
     height: 2px;
-    background: #6c3483;
+    background: #242628;
     transition: .5s;
 }
-.username input:focus ~ span::before,
-.username input:focus ~ span::before{
+.username-inicio input:focus ~ span::before,
+.username-inicio input:focus ~ span::before{
     width: 100%;
 }
-.recordar{
+.recordar-inicio{
     margin: -spx 0 20px spx;
     color: blue;
     cursor: pointer;
 }
-.recordar:hover{
+.recordar-inicio:hover{
     text-decoration: underline;
 }
 input[type='submit']{
     width: 100%;
     height: 50px;
     border: 1px solid;
-    background: #6c3483;
+    background: #242628;
     border-radius: 25px;
     font-size: 18px;
     color: white;
@@ -84,13 +76,13 @@ input[type='submit']{
     outline: none;
 }
 input[type='submit']:hover{
-    border-color: purple;
+    border-color: #242628;
     transition: .5s;   
 }
-.registrarse a{
+.registrarse-inicio a{
     color: blue;
     text-decoration: none;
 }
-.registrarse a:hover{
+.registrarse-inicio a:hover{
     text-decoration: underline;
 }
